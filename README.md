@@ -1,5 +1,6 @@
-# Led-control-using-Arduino
-
+# Exp-1 Led control using Arduino
+##### Name : VISHWARAJ G.
+##### Register Number : 212223220125
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
@@ -58,9 +59,32 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
-
+![alt text](<Screenshot (191).png>)
 ## PROGRAM
+```
+const int buttonPin=2;
+const int ledPin=13;
+int buttonState=0;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(buttonPin,INPUT);
+  pinMode(ledPin,OUTPUT);
+}
 
+void loop() {
+  // put your main code here, to run repeatedly:
+  buttonState=digitalRead(buttonPin);
+  if (buttonState==HIGH){
+    digitalWrite(ledPin,HIGH);
+  }
+  else{
+    digitalWrite(ledPin,LOW);
+  }
+}
+
+```
 ## OUTPUT
-
+![alt text](<Screenshot (198).png>)
+![alt text](<Screenshot (197).png>)
 ## RESULT
+Thus, Designed and Simulated a system for LED control using an Arduino microcontroller and a push button.
