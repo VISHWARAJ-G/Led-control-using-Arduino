@@ -59,7 +59,8 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
-![alt text](<Screenshot (191).png>)
+<img src="Screenshot (191).png" width=400>
+
 ## PROGRAM
 ```
 const int buttonPin=2;
@@ -84,7 +85,7 @@ void loop() {
 
 ```
 ## OUTPUT
-![alt text](<Screenshot (198).png>)
-![alt text](<Screenshot (197).png>)
+<img src="Screenshot (198).png" width="400">
+<img src="Screenshot (197).png" width="400">
 ## RESULT
 Thus, Designed and Simulated a system for LED control using an Arduino microcontroller and a push button.
