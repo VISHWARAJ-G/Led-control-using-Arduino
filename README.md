@@ -87,5 +87,6 @@ void loop() {
 ## OUTPUT
 <img src="Screenshot (198).png" width="400">
 <img src="Screenshot (197).png" width="400">
+
 ## RESULT
 Thus, Designed and Simulated a system for LED control using an Arduino microcontroller and a push button.
